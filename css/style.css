@@ -10,6 +10,61 @@
     margin-left: 94.8px;
     margin-top: 33.5px;
 }
+/* .header__burger{
+    width: 40px;
+    height: 28px;
+    position: relative;
+    display: none;
+}
+.header__line{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    left: 0px;
+}
+
+.header_line__first{
+    top: 0px;
+
+}
+.header_line__second{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header_line__third{
+    bottom: 0px;
+} */
+.mask {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top:0;
+    z-index:200;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.loader {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 10px solid rgba(16,71,161,0.6);
+    border-left-color: #102746;
+    animation: loader 1.3s linear infinite;
+}
+
+@keyframes loader {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .full-magazine-heading{
     display: flex;
     
@@ -563,3 +618,10 @@
     margin-left: 39.5px;
     margin-top: 29px;
  }
+
+/* @media screen and (max-width:768px) {
+    .header__burger{
+        display: block;
+    }
+
+} */
