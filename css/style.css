@@ -53,9 +53,9 @@
 .loader {
     width: 75px;
     height: 75px;
-    border-radius: 50%;
+    border-radius: 30%;
     border: 10px solid rgba(16,71,161,0.6);
-    border-left-color: #102746;
+    border-left-color: #2d595e;
     animation: loader 1.3s linear infinite;
 }
 
@@ -625,3 +625,29 @@
     }
 
 } */
+@media screen and (max-width: 395px) {
+    .header{
+        display: block;
+    }
+    .text-magazine-heading{
+        font-size: 19px;
+    }
+    .picture-magazine-heading{
+        margin-left: 60px;
+    }
+    .magazine__poject{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 395px) {
+    .main{
+        display: block;
+    }
+
+}
+@media screen and (max-width: 395px) {
+    .footer-messenger{
+        display: block;
+    }
+
+}
