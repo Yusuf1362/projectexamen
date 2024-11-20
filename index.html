@@ -7,27 +7,44 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header open">
         <div class="mask">
             <div class="loader">
-
             </div>
+
         </div>
+            <!-- burger -->
+            <button class="header__burger" id="burger">
+                <span></span><span></span><span></span>
+            </button>
             <div class=" full-magazine-heading">
                 <div class="magazine-header">
                     <h1 class="magazine-heading"> HENRIK</h1>
                 </div>
                 <div class="magazine__poject">
-                    <ul class="magazine-ul">
-                        <a href="#" class="a__home">
+                    <nav class="magazine-menu">
+                        <ul class="list-menu">
+                        <a href="#" class="link-menu">
                         <li class="magazine home">HOME</li>
-                        </a> 
+                    </a> 
+                        <a href="#" class="link-menu">
                         <li class="magazine pages" >PAGES</li>
+                    </a>
+                        <a href="#" class="link-menu">
                         <li class="magazine shop">SHOP</li>
+                    </a>
+                        <a href="#" class="link-menu">
                         <li class="magazine blog">BLOG</li>
+                    </a>
+                        <a href="#" class="link-menu">
                         <li class="magazine video">VIDEO</li>
+                    </a>
+                        <a href="#" class="link-menu">
                         <li class="magazine new">NEW</li>
+                    </a>
                     </ul>
+                    </nav>
+
                 </div>
                 <div class="info">
                     <h1>info</h1>
@@ -37,11 +54,6 @@
                 </div>
                 </div>
                 <hr class="hr">
-                <!-- <div class="header__burger burger">
-                    <span class="header__line header_line__first"></span>
-                    <span class="header__line header_line__second"></span>
-                    <span class="header__line header_line__third"></span>
-                </div> -->
             </header>
             
         <main class="main">
@@ -288,7 +300,7 @@
                     <hr class="hr-description-pic-1-part5">
                 </div>
                 <div class="pic-2-part5">
-                    <img src="./img/jpg/pic-2-part5.jpg" alt="">
+                    <img src="./img/jpg/pic-2-part5.jpgы" alt="">
                     <div class="button-part5">
                         <button class="button-source-part5">Source</button>
                     </div>
@@ -324,7 +336,7 @@
         <div class="part-6"> 
             <hr class="hr-heading-part6">
             <div class="heading-part6">
-                <span>HENRIK IS A DESIGN MAGAZINE </span>
+                <span>HENRIK IS A DESIGN MAGAZINE HENRIK IS A DESIGN MAGAZINE</span>
                 <hr class="hr-end-heading-part6">
             </div>
         </div>
@@ -353,6 +365,7 @@
             
         </footer>
         <script src="./js/loader.js"></script>
+        <script src="./js/burger.js"></script>
         
 </body>
 </html>
